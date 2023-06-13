@@ -1,4 +1,4 @@
-import time, logging
+import time, logging, asyncio
 
 from midjourney import Sender, Receiver
 from midjourney.config import load_json_config
