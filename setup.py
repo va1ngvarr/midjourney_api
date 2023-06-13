@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name="midjourney_api",
+    name="midjourney_unofficial_api",
     version="1.0",
     license="MIT",
     author="Igor Vasilev",
