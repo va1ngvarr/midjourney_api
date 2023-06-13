@@ -2,6 +2,11 @@
 
 You should go to discord created by yourself where you have brought the Midjourney bot on. Then you generate any image with /imagine command in discord web-version and press F12. 
 
+## Install
+```
+pip install midjourney_unofficial_api
+```
+
 ## How to connect
 Go to Network tab. After generation you may see line named "interactions". Press on it and choose Payload tab that should appear. Now copy "channel_id", "application_id", "guild_id", "session_id", "version", "id" values and save them somewhere.
 
