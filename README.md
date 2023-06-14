@@ -4,7 +4,7 @@ Midjourney unofficial API written in python
 
 ## Install
 ```
-pip install midjourney_unofficial_api
+pip install midjourney-unofficial-api
 ```
 
 ## How to connect
