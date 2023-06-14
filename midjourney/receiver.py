@@ -101,7 +101,7 @@ class Receiver:
                         ):
                             return True
 
-    def get_awaiting_list(self) -> None:
+    def get_awaiting_list(self) -> int:
         return self.awaiting_list
 
     # Output separated results
@@ -163,7 +163,7 @@ class Receiver:
                 + "====================================================="
             )
 
-    def get_all_results(self, target_prompt) List[str]:
+    def get_all_results(self, target_prompt) -> List[str]:
         url_list = []
 
         for i in self.df.index:
