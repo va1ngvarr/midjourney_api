@@ -25,7 +25,7 @@ def get_image_from_midjourney(prompt):
     return url
 
 
-def main():
+async def main():
     logging.basicConfig(level=logging.INFO)
 
     while True:
@@ -38,10 +38,6 @@ def main():
             case "get-url":
                 try:
                     sender.send(prompt)
-
-                    await message.bot.send_chat_action(
-                        message.chat.id, types.ChatActions.UPLOAD_PHOTO
-                    )
 
                     func = lambda: get_image_from_midjourney(prompt)
                     loop = asyncio.get_running_loop()
@@ -64,4 +60,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
