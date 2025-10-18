@@ -2,6 +2,9 @@
 
 Midjourney unofficial API written in python
 
+## Important note 
+Actually archived. This is not likely to work nowadays
+
 ## Install
 ```
 pip install midjourney-unofficial-api
